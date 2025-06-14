@@ -8,7 +8,7 @@ import { Dungeons } from './components/Dungeons';
 import { Crafting } from './components/Crafting';
 import { Store } from './components/Store';
 import { useGameState } from './hooks/useGameState';
-import { Sprout, Compass, Pickaxe, Swords, Wrench, ShoppingCart } from 'lucide-react';
+import { Sprout, Compass, Ticket as Pickaxe, Swords, Wrench, ShoppingCart } from 'lucide-react';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
